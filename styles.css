@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFF8F0;
+    color: #333;
+}
+
+header {
+    background-color: #F09000;
+    color: white;
+    text-align: center;
+    padding: 1.5em;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+main {
+    padding: 1em;
+}
+
+section {
+    margin: 2em 0;
+    padding: 1em;
+    border: 1px solid #F09000;
+    border-radius: 8px;
+    background-color: white;
+}
+
+section h2 {
+    font-size: 1.8em;
+    color: #F09000;
+    border-bottom: 2px solid #F09000;
+    padding-bottom: 0.5em;
+}
+
+.country img {
+    max-width: 150px;
+    display: block;
+    margin: 0 auto 1em;
+}
+
+.highlight {
+    border: 2px solid #F09000;
+    background-color: #FFF0E0;
+}
+
+.gallery .images {
+    display: flex;
+    justify-content: space-around;
+    gap: 1em;
+}
+
+footer {
+    background-color: #F09000;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.related-sites ul {
+    list-style: none;
+    padding: 0;
+}
+
+.related-sites ul li {
+    margin: 0.5em 0;
+}
+
+.collaborators {
+    margin-top: 2em;
+}
+
+.collaborators p {
+    font-size: 1.1em;
+}
