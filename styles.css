@@ -82,3 +82,35 @@ footer {
 .collaborators p {
     font-size: 1.1em;
 }
+
+.categories {
+    margin-top: 1em;
+    padding: 1em;
+    background-color: #fff3e0;
+    border: 1px solid #f09000;
+    border-radius: 8px;
+}
+
+.categories h4 {
+    color: #f09000;
+    margin-bottom: 0.5em;
+}
+
+.categories ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1em 0;
+}
+
+.categories ul li {
+    margin: 0.5em 0;
+}
+
+.categories ul li a {
+    color: #f09000;
+    text-decoration: none;
+}
+
+.categories ul li a:hover {
+    text-decoration: underline;
+}
