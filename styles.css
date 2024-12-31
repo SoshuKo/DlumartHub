@@ -53,11 +53,31 @@ section h2 {
     background-color: #FFF0E0;
 }
 
-.gallery .images {
+/* ギャラリーセクションのスタイル */
+.gallery {
     display: flex;
-    justify-content: space-around;
-    gap: 1em;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    margin-top: 2em;
+    padding: 1em;
+    background-color: #fff3e0;
+    border: 1px solid #f09000;
+    border-radius: 8px;
 }
+
+.gallery img {
+    width: 200px; /* 幅を固定 */
+    height: auto; /* 高さを自動調整 */
+    border-radius: 8px; /* 角を少し丸める */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.gallery img:hover {
+    transform: scale(1.05); /* ホバー時に拡大 */
+}
+
 
 footer {
     background-color: #F09000;
